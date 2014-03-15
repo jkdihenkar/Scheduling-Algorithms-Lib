@@ -1,0 +1,5 @@
+gcc -c preq.c
+gcc -c srtn.c
+gcc preq.o srtn.o -o srtn
+rm srtn.o
+rm preq.o

@@ -1,0 +1,5 @@
+gcc -c preq.c
+gcc -c fcfs.c
+gcc preq.o fcfs.o -o fcfs
+rm fcfs.o
+rm preq.o

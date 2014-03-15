@@ -1,0 +1,5 @@
+gcc -c preq.c
+gcc -c sjf.c
+gcc -g preq.o sjf.o -o sjf
+rm sjf.o
+rm preq.o

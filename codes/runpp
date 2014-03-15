@@ -1,0 +1,5 @@
+gcc -c preq.c
+gcc -c priopre.c
+gcc preq.o priopre.o -o priopre
+rm priopre.o
+rm preq.o

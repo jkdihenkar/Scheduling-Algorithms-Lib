@@ -1,0 +1,5 @@
+gcc -c preq.c
+gcc -c roundrobin.c
+gcc preq.o roundrobin.o -o roundrobin
+rm roundrobin.o
+rm preq.o
